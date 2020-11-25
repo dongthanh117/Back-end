@@ -9,12 +9,14 @@
 <body>
 <?php
 echo '<h1>Xin chào !! </h1>';
-$hoten ='Thanh'
-$password = '12345'
+$hoten ='Thanh';
+$password = '12345';
 
-echo '<h1>style="color:blue;"'
+echo 'Bạn tên là: <span style="color: red;">' . $hoten . '</span>';
+echo 'Mật khẩu là: <span style="color: red;">' . $password . '</span>';
 
 ?>
+<br/>
     <a href="page/Gioithieu.php">Giới thiệu </a><br/>
     <a href="page/Lienhe.php">Liên hệ </a>
     
